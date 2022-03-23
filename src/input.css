@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.experience__title {
+  @apply font-bold text-blue text-lg;
+}
+
+.experience__item {
+  @apply grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 p-2;
+}
+
+.section__title {
+  @apply text-purple font-bold text-xl text-center;
+}
+
+.section {
+  @apply p-4;
+}
+
+.contact__icon {
+  @apply text-xl m-2 lg:text-4xl lg:m-4;
+}

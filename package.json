@@ -1,0 +1,14 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "About me",
+  "author": "Leonardo Lopez Daza",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "private": false,
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
