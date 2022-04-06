@@ -5,9 +5,9 @@
   "author": "Leonardo Lopez Daza",
   "license": "MIT",
   "scripts": {
-    "start": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+    "start": "npx tailwindcss -i ./src/input.css -o ./docs/output.css --watch"
   },
-  "private": false,
+  "private": true,
   "devDependencies": {
     "tailwindcss": "^3.0.23"
   }

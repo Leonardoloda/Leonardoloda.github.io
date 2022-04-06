@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}", "./dist/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./docs/*.{html,js}"],
   theme: {
     colors: {
       blue: "#1fb6ff",
